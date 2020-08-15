@@ -1,4 +1,4 @@
-FROM jupyter/minimal-notebook:latest
+FROM jupyter/minimal-notebook:d4cbf2f80a2a
 
 USER root
 RUN apt-get update && apt-get install -y gcc g++ make python
